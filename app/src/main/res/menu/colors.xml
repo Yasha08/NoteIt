@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.noteit.NewNote">
+
+    <group>
+
+    <item
+        android:id="@+id/yellow"
+        android:icon="@drawable/color_circles"
+        android:title="Yellow"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:icon="@drawable/color_circles"
+        android:id="@+id/green"
+        android:title="Green"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:icon="@drawable/color_circles"
+        android:id="@+id/blue"
+        android:title="Blue"
+        app:showAsAction="ifRoom"/>
+
+        <item android:icon="@drawable/color_circles"
+            android:id="@+id/pink"
+            android:title="Pink"
+            app:showAsAction="ifRoom"/>
+
+</group>
+
+</menu>
